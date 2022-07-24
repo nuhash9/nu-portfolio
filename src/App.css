@@ -6,7 +6,6 @@ a:hover {
    color: #3d37ff;
 }
 .main {
-   height: 100%;
    display: flex;
    flex-direction: column;
 }
@@ -14,7 +13,6 @@ a:hover {
     .main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-auto-rows: 50vh;
 }
 }
 
@@ -24,15 +22,15 @@ a:hover {
    grid-row: span 2;
    background-color: #FFFBF2;
    align-items: center;
-   font-size: 5rem;
+   font-size: 4rem;
    color: #1400FF;
 }
 .photo {
-   background-position: center;
-   background-size: cover;
-   background-repeat: no-repeat;
    width: 100%;
-   height: 50vh;
+}
+.photo > img {
+  object-fit: contain;
+  width: 100%;
 }
 .bio {
    align-self: center;

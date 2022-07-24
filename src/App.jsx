@@ -9,8 +9,9 @@ function App() {
 	    	<div class="hello">
 	            <h1>Hello,</h1>
 	        </div>
-		    <div class="photo" style={{backgroundImage: `url(https://i.imgur.com/KCYJtnp.jpg)`}}>
-			</div>
+		    <div class="photo">
+			    <img  src="https://i.imgur.com/KCYJtnp.jpg)`"></img>
+		    </div>
 			<div class="bio">
 				<h3>I am <span><a href="https://www.twitter.com/NuhashC">Nuhash Chowdhury <i class="fa fa-twitter" aria-hidden="true"></i></a></span></h3>
 				<p>
