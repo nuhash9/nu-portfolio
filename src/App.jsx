@@ -10,7 +10,7 @@ function App() {
 					<h1>Hello,</h1>
 	      </div>
 		    <div className="photo">
-			    <img  src="https://i.imgur.com/KCYJtnp.jpg)`"></img>
+			    <img  src="https://i.imgur.com/KCYJtnp.jpg"></img>
 		    </div>
 				<div className="bio">
 					<h3>I am <span><a href="https://www.twitter.com/NuhashC">Nuhash Chowdhury <i className="fa fa-twitter" aria-hidden="true"></i></a></span></h3>
