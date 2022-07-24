@@ -1,0 +1,50 @@
+
+a:visited {
+   color: inherit;
+}
+a:hover {
+   color: #3d37ff;
+}
+.main {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+@media (min-width: 769px) {
+    .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 50vh;
+}
+}
+
+.hello {
+   display: grid;
+   text-align: center;
+   grid-row: span 2;
+   background-color: #FFFBF2;
+   align-items: center;
+   font-size: 5rem;
+   color: #1400FF;
+}
+.photo {
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 50vh;
+}
+.bio {
+   align-self: center;
+   padding: 2em;
+}
+.bio > h3 {
+   font-size: 2rem;
+}
+.bio > h3 > span {
+   color: #1400FF;
+}
+.github-icon {
+   fill: #1400FF;
+   width: 2em;
+}
